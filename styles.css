@@ -1,0 +1,23 @@
+/** body{
+    color: red;
+    
+}
+h1{
+    color: blue;
+}
+h2{
+    color: green;
+}
+#lib-header{        //if i want to access only one thing for id we use # to access that header 
+    color: grey;
+}
+.para{            //if i want to access everything for that we use class for class we use . to access that class
+    color: pink;
+}**/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+body{
+    font-family: 'Montserrat', 
+    sans-serif;
+    }
+

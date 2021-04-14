@@ -5,9 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <!-- CSS way:1 style tag
+        <style>
+        body{
+            color: red;
+        }
+    </style>-->
+    <!--Third way of doing CSS: external link-->
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
     <h1>Shivani's Component Library</h1>
+    <!-- <h1 id="lib-header">-->
+    <!-- CSS way:2 using style attribute <h1 style="color: red;">Shivani's Component Library</h1>-->
+    <!--<p class="para">-->
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
        Cum, sed labore totam cumque mollitia quo ea tenetur possimus 
        illum, quam qui alias quisquam repellendus sunt impedit 
@@ -19,13 +30,15 @@
        <h1>This is biggest title</h1>
        <h2>this is second title</h2>
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.!</p>
-       <small>this is literally small text font size</small>
+      <p>this paragraph will have <strong>bold</strong> text</p>
+       <small >this is literally small text font size</small>
 
        <hr>
 
        <h2>@container</h2><!--container(it is an empty space) has no meaning we can use div -->
        
        <h3>fluid container</h3>   <!--we use css to make it nice-->
+       <!--<div class="para">-->
        <div>this is a fluid container and it will go end of page</div> //div is used as placeholder
        
        <h3>center container</h3>   <!--we use css to make it nice-->
