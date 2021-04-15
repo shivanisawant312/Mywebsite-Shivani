@@ -16,14 +16,20 @@ h2{
 }**/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+:root{  /**this for entire page**/
+    --primary-color:#7C3AED;
+
+}
 body{
     font-family: 'Montserrat', 
     sans-serif;
     }
 
+/**container**/
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
+    /**padding-left: 1rem;
+    padding-right: 1rem; same as above -topbottom -leftright**/
 }
     
 .container-center{
@@ -32,4 +38,21 @@ body{
 
 }
 
-    
+/**links**/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-link{
+   background-color: var(--primary-color);
+   border-radius: 0.5rem;
+   color: white;
+    /**color: var(--primary-color);**/
+}
+.secondary-link{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/**look into BEM naming convention for CSS**/
