@@ -17,8 +17,9 @@ h2{
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 :root{  /**this for entire page**/
-    --primary-color:#7C3AED;
+    --primary-color:#7c3aed;
     --dark-grey: #6b7280;
+    --off-white: #F3F4F6
 
 }
 body{
@@ -116,4 +117,15 @@ hr{
 
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
+}
+/**section**/
+.section{
+    padding: 2rem;;
+}
+.section h1{
+    text-align: center;
+    padding: 2rem;
+} 
+.ow{
+    background-color: var(--off-white);
 }
